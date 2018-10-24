@@ -1,8 +1,5 @@
 # MLA
-Machine Learning and Algorithms Codes for BE IT.
-
-
-Codes are contributed by Varad and Stony.
+Machine Learning and Applications Codes SPPU BE IT 2015 Course
 
 `my_data.txt` is the dataset for Linear Regression.
 
