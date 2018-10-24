@@ -233,7 +233,7 @@ for(i in 1:10)
   trSize = 10 * i;
   
   trainingData <- head(dataS , trSize)
-  trmodel <- lm(y ~ x1 + x2 +x3 +x4 +x5 +x6 +x7 , data =dataS , x=T , y=T)
+  trmodel <- lm(y ~ x1 + x2 +x3 +x4 +x5 +x6 +x7 , data =trainingData , x=T , y=T)
   predictedY <- predict ( trmodel , trainingData)
   
   predictedY
